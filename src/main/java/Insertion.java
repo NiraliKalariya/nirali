@@ -4,7 +4,7 @@ public class Insertion {
     private static boolean less(Comparable v, Comparable w) {
         return v.compareTo(w) < 0;
     }
-
+    //exchange
     private static void exch(Comparable[] a, int i, int j) {
         Comparable temp = a[i];
         a[i] = a[j];
