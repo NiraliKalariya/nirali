@@ -1,4 +1,6 @@
 public class Insertion {
+
+    // less function
     private static boolean less(Comparable v, Comparable w) {
         return v.compareTo(w) < 0;
     }
